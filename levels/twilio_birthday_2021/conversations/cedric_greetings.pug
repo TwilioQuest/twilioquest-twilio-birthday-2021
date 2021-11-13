@@ -1,0 +1,16 @@
+// Responses
+mixin party
+  response#party.
+    I'm ready to party!
+
+conversation(display_name="Cedric")
+  if lastResponse === "party"
+    statement.
+      Let's get to it!
+
+  else 
+    statement.
+      Welcome to the birthday bash, Operator! Head down the path to equip yourself with the latest in celebration technology.
+    responses
+      +party
+

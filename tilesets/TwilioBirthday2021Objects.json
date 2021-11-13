@@ -6,47 +6,12 @@
      "width":1
     },
  "margin":0,
- "name":"TwinStickObjects",
+ "name":"TwilioBirthday2021Objects",
  "spacing":0,
- "tilecount":3,
+ "tilecount":2,
  "tiledversion":"1.6.0",
  "tileheight":32,
  "tiles":[
-        {
-         "id":0,
-         "image":"..\/objects\/light-green\/icon.png",
-         "imageheight":24,
-         "imagewidth":24,
-         "objectgroup":
-            {
-             "draworder":"index",
-             "name":"",
-             "objects":[
-                    {
-                     "height":5,
-                     "id":1,
-                     "name":"",
-                     "rotation":0,
-                     "type":"",
-                     "visible":true,
-                     "width":9,
-                     "x":7,
-                     "y":16
-                    }],
-             "opacity":1,
-             "type":"objectgroup",
-             "visible":true,
-             "x":0,
-             "y":0
-            },
-         "properties":[
-                {
-                 "name":"objectiveName",
-                 "type":"string",
-                 "value":"example_objective"
-                }],
-         "type":"light-green"
-        }, 
         {
          "id":1,
          "image":"..\/objects\/frederic\/icon.png",
@@ -83,22 +48,39 @@
          "type":"frederic"
         }, 
         {
-         "id":2,
-         "image":"..\/objects\/cannon\/icon.png",
-         "imageheight":24,
-         "imagewidth":24,
+         "id":3,
+         "image":"..\/objects\/cupcake\/Cupcake.png",
+         "imageheight":18,
+         "imagewidth":13,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":3,
+             "name":"",
+             "objects":[
+                    {
+                     "height":36,
+                     "id":2,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":32.5,
+                     "x":-9.75,
+                     "y":-9
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
-                 "name":"activated",
+                 "name":"interactable",
                  "type":"bool",
                  "value":true
-                }, 
-                {
-                 "name":"key",
-                 "type":"string",
-                 "value":"cannon"
-                }],
-         "type":"cannon"
+                }]
         }],
  "tilewidth":32,
  "type":"tileset",

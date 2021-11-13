@@ -1,0 +1,17 @@
+{
+  "title": "Twilio Birthday Bash 2021",
+  "description": "Throw some cupcakes and celebrate Twilio's big day in style!",
+  "mission_icon": "Cupcake_Iconx3.png",
+  "is_mission": true,
+  "priority": 1,
+  "backgroundMusic": "hackertheme_104771b",
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": {
+      "direction": "topToBottom",
+      "baseSpeed": 0.015
+    }
+  },
+  "flavorTextOverrides": {},
+  "objectives": []
+}
